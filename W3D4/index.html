@@ -1,0 +1,102 @@
+<!--ESERCIZI IN HTML
+
+ESERCIZIO 1: Inserisci un tag h1 con il nome del tuo negozio
+ESERCIZIO 2: Aggiungi una tabella con i 5 prodotti più in vista del tuo negozio
+ESERCIZIO 3: Aggiungi per ogni prodotto un'immagine, un titolo, una descrizione e un prezzo
+ESERCIZIO 4: Per ogni elemento della tabella aggiungi un link di Amazon al prodotto esistente
+ESERCIZIO 5: Aggiungi un footer con il nome e l'indirizzo del tuo negozio
+ESERCIZIO 6: Aggiungi un campo testuale in cui l'utente può lasciare un commento su un prodotto (al momento non serve inserire nessuna "vera" funzionalità di POST/salvataggio!)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>KERRY'S SHOP</h1>
+    <div class="card-box">
+        <!--primo articolo-->
+        <div class="card">
+            <div class="img-container">
+                <img src="assets/img1.jpg" alt="fotocamera per bambini">
+            </div>
+            <h3>Fotocamera per bambini</h3>
+            <span class="description">
+                fotocamera per bambini con stampante termica incorporata. 
+                Nella confezione sono compresi 3 rotoli di carta termica.
+            </span>
+            <span class="price">€ 49,99 <button><a href="https://www.amazon.it/Macchina-Fotografica-Istantanea-GREENKINDER-Fotocamera/dp/B0CTPZ5CVJ/ref=sr_1_5?dib=eyJ2IjoiMSJ9.RQNIqhWK89oAHuxoGtmYtWF6bRyt3DabxwOLqGoQXp2eYbNd07l89YaGndTCJtij9b1UvKJjj4AxcxW7IwE0j8B6FfEj0X73RgDa-koSeajkxNmm22yjmrFuBHV41x2wRUSYkyyna_gw7oxux5Ebb-NKPMm0Yv1refr_vNS1zmdmmdUosnBxNBYeJEyecBxCk7GP6dKuXKVmRkLqA2KBz7Hf1PZf_H3i5rB9w5jdJ318H3ngJtJASy-CyONUxu3AD_DRfK6gaqgL73UnsLVqZjcN_3dtG6iRyJ0o-bjwnxY.4siWec6TfmIaotdfIQNXaef5RiyqvRbPXSS9NpqcC5Q&dib_tag=se&pf_rd_i=26215451031&pf_rd_m=A11IL2PNWYJU7H&pf_rd_p=de302304-8ecb-4d32-85e7-e75ec810ea1d&pf_rd_r=KCNGZRVBG4753F5324B2&pf_rd_s=merchandised-search-5&pf_rd_t=101&qid=1717236053&s=boost&sr=8-5&srs=26215457031">Compra</a></button></span>
+        </div>
+
+        <!--secondo articolo-->
+        <div class="card">
+            <div class="img-container">
+                <img src="assets/img2.jpg" alt="binocolo per bambini">
+            </div>
+            <h3>Binocolo per bambini</h3>
+            <span class="description">
+                Binocolo per bambini, colore camuflage multicolor. Ingrandimento 8x. Lenti di alta qualità.
+            </span>
+            <span class="price">€ 24,99 <button><a href="https://www.amazon.it/USCAMEL-Binocolo-Alimentato-Impermeabile-Birdwatching/dp/B0CRP2C81T/ref=sr_1_32?dib=eyJ2IjoiMSJ9.RQNIqhWK89oAHuxoGtmYtWF6bRyt3DabxwOLqGoQXp0VMPXsy2iqlNKMEiemzNkXFlOBgOFhus5edGHi6cM0G-6gzG0qMK5PDGy6aCfAB-LkxNmm22yjmrFuBHV41x2wRUSYkyyna_gw7oxux5Ebb4ox_yyFO-erfngBkXlATs4hDmxWiZkm-GShKX6L1Y-Wk7GP6dKuXKVmRkLqA2KBz7Hf1PZf_H3i5rB9w5jdJ30kC-tQsGJtcoVQDysQ3YAZ8RChhJlkzJa0U_dfUTlz2Lm69CU_q0cfOJQ2Q-6-Gn0.N1YAe0tIXsWHRxaHuyv9eS9ez_fEsBp52GZhKoKYOiA&dib_tag=se&pf_rd_i=26215451031&pf_rd_m=A11IL2PNWYJU7H&pf_rd_p=de302304-8ecb-4d32-85e7-e75ec810ea1d&pf_rd_r=KCNGZRVBG4753F5324B2&pf_rd_s=merchandised-search-5&pf_rd_t=101&qid=1717233869&s=boost&sr=8-32&srs=26215457031">Compra</a></button></span>
+        </div>
+
+        <!--terzo articolo-->
+        <div class="card">
+            <div class="img-container">
+                <img src="assets/img3.jpg" alt="cornice digitale">
+            </div>
+            <h3>Cornice digitale</h3>
+            <span class="description">
+                Conserva i tuoi ricordi migliori e guardali quando vuoi con questa cornice digitale da 8 pollici, adatta ad ogni stile di arredamento.
+            </span>
+            <span class="price">€ 69,99 <button><a href="https://www.amazon.it/FamBrow-Touchscreen-Elettronica-Condivisione-Istantanea/dp/B0CX59BCDW/ref=sr_1_38?dib=eyJ2IjoiMSJ9.RQNIqhWK89oAHuxoGtmYtWF6bRyt3DabxwOLqGoQXp0VMPXsy2iqlNKMEiemzNkXFlOBgOFhus5edGHi6cM0G-6gzG0qMK5PDGy6aCfAB-LkxNmm22yjmrFuBHV41x2wRUSYkyyna_gw7oxux5Ebb4ox_yyFO-erfngBkXlATs4hDmxWiZkm-GShKX6L1Y-Wk7GP6dKuXKVmRkLqA2KBz7Hf1PZf_H3i5rB9w5jdJ30kC-tQsGJtcoVQDysQ3YAZ8RChhJlkzJa0U_dfUTlz2Lm69CU_q0cfOJQ2Q-6-Gn0.N1YAe0tIXsWHRxaHuyv9eS9ez_fEsBp52GZhKoKYOiA&dib_tag=se&pf_rd_i=26215451031&pf_rd_m=A11IL2PNWYJU7H&pf_rd_p=de302304-8ecb-4d32-85e7-e75ec810ea1d&pf_rd_r=KCNGZRVBG4753F5324B2&pf_rd_s=merchandised-search-5&pf_rd_t=101&qid=1717233869&s=boost&sr=8-38&srs=26215457031">Compra</a></button></span>
+        </div>
+
+        <!--quarto articolo-->
+        <div class="card">
+            <div class="img-container">
+                <img src="assets/img4.jpg" alt="karaoke per bambini">
+            </div>
+            <h3>Karaoke per bambini</h3>
+            <span class="description">
+                Un mini karaoke con un aspetto elegante e funzionamento semplice per bambini e adulti. L'altoparlante Bluetooth è dotato di un driver audio ad alte prestazioni e di un processore di segnale digitale avanzato, che rendono il suono più chiaro ed evita fastidiosi feedback del microfono.
+            </span>
+            <span class="price">€ 28,99 <button><a href="https://www.amazon.it/BONAOK-Microfoni-Giocattolo-Bluetooth-Portatile/dp/B0CRKVCGK5/ref=sr_1_9?dib=eyJ2IjoiMSJ9.IGEcanoH3Uq36mwpnHa5Wtmfq9j3wJSP3-RCYEnnOxLEgXonCJ_Wj1JPtSL4yxuxOs7ZqejMjoHJpCZ9B0AMJNywemyc1pahVMsp7lm2RjyNrqJEAz1eKHqEcPTajh58Aned9rfJ5r4a0HBXKW--n4iTsG64MMHigYjydS3b0d-gW3EKsqLoblF5iNTYUFDRY1ujS4quzlQ4jGntVtRoE9OnKY1oeMM4xxkctVDT4bZA_J5M-DDhin6MyaerxDTb6eW4Jbntvjyz6mFg3SiEWAfub2rOjUt1i113aFi5z14.QPSzuJmjcSvJfc8AZV4HES7aQFOtHRjLgh2QZzfDM9o&dib_tag=se&pf_rd_i=26215451031&pf_rd_m=A11IL2PNWYJU7H&pf_rd_p=de302304-8ecb-4d32-85e7-e75ec810ea1d&pf_rd_r=KCNGZRVBG4753F5324B2&pf_rd_s=merchandised-search-5&pf_rd_t=101&qid=1717237513&s=boost&sr=8-9&srs=26215454031">Compra</a></button></span>
+        </div>
+
+        <!--quinto articolo-->
+        <div class="card">
+            <div class="img-container">
+                <img src="assets/img5.jpg" alt="chitarra elettrica">
+            </div>
+            <h3>Chitarra elettrica</h3>
+            <span class="description">
+                La chitarra elettrica Studio Midi è una chitarra elettrica MIDI veloce e affidabile progettata per produttori, chitarristi e autocarri. Come un controller MIDI di classe, è possibile creare il tuo DAW preferito Plug and Play per composizione, trascrivere e creare musica come con una tastiera MIDI.
+            </span>
+            <span class="price">€ 849,00 <button><a href="https://www.amazon.it/Jamstik-Studio-MIDI-Guitar-Black/dp/B08KTT45WJ/ref=sr_1_37?dib=eyJ2IjoiMSJ9.IGEcanoH3Uq36mwpnHa5Wtmfq9j3wJSP3-RCYEnnOxLEgXonCJ_Wj1JPtSL4yxuxOs7ZqejMjoHJpCZ9B0AMJNywemyc1pahVMsp7lm2RjyNrqJEAz1eKHqEcPTajh58Aned9rfJ5r4a0HBXKW--n4oYSW5cmJa539DbpTOHAHYZzpgMkLZGVVjs9kJGemdpgq7N8oPetthJ0SHpnPFB5tOnKY1oeMM4xxkctVDT4bZA_J5M-DDhin6MyaerxDTb6eW4Jbntvjyz6mFg3SiEWAfub2rOjUt1i113aFi5z14.T277tVXxoAu6MGBUDiZWj0ut8uXhoBmmBn3NAtHBRXs&dib_tag=se&pf_rd_i=26215451031&pf_rd_m=A11IL2PNWYJU7H&pf_rd_p=de302304-8ecb-4d32-85e7-e75ec810ea1d&pf_rd_r=KCNGZRVBG4753F5324B2&pf_rd_s=merchandised-search-5&pf_rd_t=101&qid=1717233987&s=boost&sr=8-37&srs=26215454031">Compra</a></button></span>
+        </div>
+    </div>
+    <br>
+    <button onclick="showHideImg()">Mostra / Nascondi Immagini</button>
+    <button onclick="changePriceColor()">Cambia il colore dei prezzi</button>
+    <button onclick="changeH1()">Cambia il nome del negozio</button>
+    <button onclick="changeBGColor()">Cambia il colore dello sfondo</button>
+    <br>
+    <div class="comment-box">
+        <span>Lascia qui il tuo commento:</span>
+        <textarea name="commento"></textarea>
+    </div>
+
+    <footer>
+        <span>KERRY'S SHOP</span>
+        <span id="adress">Via Boia del Giuda, 25 - 201939 Bisanzio Alta</span>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
